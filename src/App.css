@@ -1,0 +1,50 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor:pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  
+}
+
+.waveCount {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+
+.waveMessage {
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>💩</text></svg>") 16 0,auto;
+  margin-top:10px;
+  height:100px;
+  border-radius: 3px 3px 3px 3px;
+  border-color: #DCDCDC;
+}
+
